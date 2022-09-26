@@ -1,0 +1,77 @@
+.dsh-maincontainer{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.dash-head-details {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dash-head-details > h3 {
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+}
+.dashbord-select {
+  border: none;
+  width: 100px;
+  appearance: none;
+  background-image: url("../Assets/logo/white-Polygon.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: calc(100% - 3px) center !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.dash-language {
+  display: flex;
+  gap: 1.5em;
+}
+.straight-line {
+  width: 90vw;
+  height: 2px;
+  left: 127px;
+  top: 119px;
+
+  background: #d9d9d9;
+}
+.welcome-container,h1{
+    text-align: center;
+    margin-top:59px ;
+    color: #ffff;
+    font-weight: 500;
+font-size: 34px;
+line-height: 35px;
+}
+.name{
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.welcome-container > hr{
+    width:50%
+}
+.openbtn{
+    border: 1px solid #fff !important;
+   height: 54px !important;
+   width: 234px !important;
+   font-size: 24px !important;
+}
+.mail-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   /* gap: 3em; */
+}
+.mail-box > div {
+    margin-top: 67px;
+}
