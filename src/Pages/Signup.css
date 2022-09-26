@@ -42,9 +42,10 @@ font-style: normal; */
 
 .right-container {
   width: 60%;
-  height: 100vh;
+  height: 100%;
   background: #ffffff;
   border-radius: 30px 0px 0px 30px;
+  padding-bottom: 20px;
 }
 select {
   border: none;
@@ -61,7 +62,7 @@ select {
 .language {
   display: flex;
   flex-direction: row-reverse;
-  margin: 25px;
+  margin:20px 25px 0px;
 }
 .form-header {
   max-width: 400px;
@@ -93,8 +94,6 @@ select {
   color: #ffffff;
   width: 271px;
 height: 40px;
-left: 646px;
-top: 611px;
 border: none;
 background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
 border-radius: 10px;
